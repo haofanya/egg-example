@@ -2,9 +2,9 @@
 
 const Controller = require('egg').Controller;
 class HomeController extends Controller {
-  async index() {
+  async findPersonInfoPage() {
     const { ctx } = this;
-    ctx.body = 'hi, eggjs!  ';
+    ctx.body = 'hi, eggjs! ';
   }
 }
 
